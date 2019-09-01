@@ -82,7 +82,7 @@ deploy:
   repo: git@github.com:iWuzhi/iwuzhi.github.io.git
 
 symbols_count_time:
-  symbols: true
+  symbols: false
 
 search:
   path: search.xml
