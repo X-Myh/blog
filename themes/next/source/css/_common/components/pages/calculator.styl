@@ -1,0 +1,44 @@
+
+.calculator
+  height 600px
+  user-select none
+
+.calculator-input
+  padding: 5px 12px
+  outline: none
+  background: transparent
+  border: solid 1px #bbbbbb
+  color: #555555
+  box-sizing border-box
+  width: 200px
+  border-radius 4px
+  &::placeholder
+    color: #eee
+
+.calculator-submit
+  padding: 5px 12px
+  background: #6190e8
+  color: #ffffff
+  border-radius: 4px
+  outline: none
+  cursor pointer
+
+.calculator-result
+  display flex
+  flex-wrap: wrap
+  margin-top 12px
+  & > div
+    width 50%
+    margin-bottom 12px
+  &-tag
+    background red
+    display inline-block
+    width 80px
+    text-align center
+    color #fff
+  &-green
+    .calculator-result-tag
+      background green
+  &-red
+    .calculator-result-tag
+      background red
