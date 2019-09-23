@@ -660,7 +660,7 @@ livere_uid: # <your_uid>
 # Demo: https://gitalk.github.io
 # For more information: https://github.com/gitalk/gitalk, https://github.com/emn178/js-md5
 gitalk:
-  enable: true
+  enable: false
   github_id: iWuzhi
   repo: iwuzhi.github.io
   client_id: 2b0d2aecf1534e1811f2
