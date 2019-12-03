@@ -6,7 +6,9 @@ $scheme    = hexo-config('scheme') ? hexo-config('scheme') : 'Muse';
 $variables = base $scheme;
 $mixins    = base $scheme;
 
-
+* {
+  word-break: break-all;
+}
 // Variables Layer
 // --------------------------------------------------
 for $variable in $variables
