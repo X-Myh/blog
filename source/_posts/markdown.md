@@ -18,8 +18,8 @@ markdown可以说是轻量级的HTML语言，标记也更加简洁。它的特�
 
 ### 功能扩展（二次封装）
 基于传统的markdown语法，可能已经无法满足部分人的需求，因此市面上又有不少的扩展，这里就列一个我喜欢的：
-[mdeditor](https://www.mdeditor.com/)
+1. [mdeditor](https://www.mdeditor.com/)
 
 ### 个人常用工具
-[mdeditor](https://www.mdeditor.com/) :Web PC端在线编辑器
-[typro](https://www.typora.io/)：下载客户端编辑器
+1. [mdeditor](https://www.mdeditor.com/) ：Web PC端在线编辑器
+2. [typro](https://www.typora.io/)：下载客户端编辑器
