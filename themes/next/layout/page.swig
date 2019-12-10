@@ -68,6 +68,8 @@
           {% include 'schedule.swig' %}
         {% elif page.type === 'calculator' %}
           {% include 'calculator.swig' %}
+        {% elif page.type === 'knowledge' %}
+          {% include 'knowledge.swig' %}
         {% else %}
           {{ page.content }}
         {%- endif %}

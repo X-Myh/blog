@@ -159,6 +159,7 @@ menu:
 #  sitemap: /sitemap.xml || sitemap
   commonweal: /404/ || bomb
   calculator: /calculator/ || calculator
+  knowledge: /knowledge/ || book
 
 # Enable / Disable menu icons / item badges.
 menu_settings:

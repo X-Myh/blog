@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: iWuzhi的博客
-subtitle: 走向胜利，或终点。
-description: 好记性不如烂笔头，物理存储方式总是比生物细胞好用。
-keywords: iWuzhi, 博客, 极客, 随笔
+title: Blog of iWuzhi
+subtitle: Win，or die.
+description: We think, we try, we finish.
+keywords: iWuzhi, Blog, Geek
 author: iWuzhi
 language: zh-CN
 timezone: Asia/Shanghai
