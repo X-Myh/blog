@@ -13,4 +13,4 @@ type: knowledge
 [React](/tags/react)
 
 ### 代码转化工具
-[Babel](/tags/babel)
+[Babel](/tags/Babel)
