@@ -40,10 +40,10 @@ custom_file_path:
 # ---------------------------------------------------------------
 
 favicon:
-  small: /images/favicon-16x16-next.png
-  medium: /images/favicon-32x32-next.png
-  apple_touch_icon: /images/apple-touch-icon-next.png
-  safari_pinned_tab: /images/logo.svg
+  small: https://q1.qlogo.cn/g?b=qq&s=100&nk=2461358597
+  medium: https://q1.qlogo.cn/g?b=qq&s=100&nk=2461358597
+  apple_touch_icon: https://q1.qlogo.cn/g?b=qq&s=100&nk=2461358597
+  safari_pinned_tab: https://q1.qlogo.cn/g?b=qq&s=100&nk=2461358597
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
@@ -194,9 +194,9 @@ site_state: true
 social:
   GitHub: https://github.com/iWuzhi || github
   E-Mail: mailto:2461358597@qq.com || envelope
-#  Weibo: https://weibo.com/u/6474587013 || weibo
+  Weibo: https://weibo.com/u/6474587013 || weibo
   #Google: https://plus.google.com/yourname || google
-#  Twitter: https://twitter.com/yourname || twitter
+  Twitter: https://twitter.com/iWuzhi || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
   #VK Group: https://vk.com/yourname || vk
   #StackOverflow: https://stackoverflow.com/yourname || stack-overflow
@@ -222,7 +222,7 @@ avatar:
   # In theme directory (source/images): /images/avatar.gif
   # In site directory (source/uploads): /uploads/avatar.gif
   # You can also use other linking images.
-  url: /images/avatar.gif
+  url: https://q1.qlogo.cn/g?b=qq&s=100&nk=2461358597
   # If true, the avatar would be dispalyed in circle.
   rounded: true
   # If true, the avatar would be rotated with the cursor.

@@ -5,12 +5,13 @@ type: knowledge
 ---
 
 
+### JavaScript
+[ES 版本日志](/tags/ES版本)&nbsp;&nbsp;[JavaScript相关](/tags/JavaScript)
 ### 日常工具
-
-[Markdown](/tags/markdown/)
+[Markdown](/tags/markdown)
 
 ### 前端框架
-[React](/tags/react)
+[React](/tags/React)
 
 ### 代码转化工具
 [Babel](/tags/Babel)
