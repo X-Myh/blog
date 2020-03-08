@@ -14,4 +14,4 @@ tags:
 4. ctrl + w：删除光标前一个单词
 5. command + ;： 显示使用过的命令
 6. command + shift + h：弹出历史记录窗口
-
+7. ctrl + r: 搜索历史记录

@@ -58,6 +58,71 @@ Hooks是在16.8新增的功能，它们能够让你在没有Class的情况下使
 
 我们在声明一个状态变量的时候，没有给定一个key或者其他的唯一标识。React会存储我们声明的状态变量，每次render之后，再次调用useState()会根据调用次序正确返回已存储的状态变量。
 
+### 构建你自己的Hooks
 
+1. 一个Hooks可以返回一个状态值（类似state），且这个值可变，而改变的逻辑就在定义这个Hooks的函数中
+2. 一般自定义最底层的Hooks都会用到系统Hooks（useState、useEffect等）
+3. 下面是[一个简单的例子](http://jsfiddle.net/avbqfcm7/4/)：
 
-....未完
+```jsx
+const { useState, useEffect } = React;
+
+function useTime() {
+	const [time, setTime] = useState();
+  useEffect(() => {
+  	setTimeout(() => {
+    	setTime(Date.now());
+    }, 1000);
+  })
+  return time;
+}
+
+function MyHooks(props) {
+	const time = useTime();
+  return (
+  	<h3>{time}</h3>
+  );
+}
+
+class TodoApp extends React.Component {
+  render() {
+    return (
+      <div>
+        <MyHooks />
+      </div>
+    )
+  }
+}
+
+ReactDOM.render(<TodoApp />, document.querySelector("#app"))
+
+```
+
+### Hooks API引用
+
+1. 基础Hooks
+   * useState
+   * useEffect
+   * useContext
+2. 其它Hooks
+   * useReducer
+   * useCallback
+   * useMemo
+   * useRef
+   * useImperativeHandle
+   * useLayoutEffect
+   * useDebugValue
+
+### Hooks FAQ
+
+* 使用策略
+  1. 版本：16.8
+  2. 当前Hooks并未覆盖所有的class场景，如getSnapshotBeforeUpdate、componentDidCatch生命周期，还有部分三方库可能不支持
+  3. 和Redux集成，React Redux since v7.1.0已经支持Hooks方式，之前版本可仍使用以前的方式
+  4. 静态类型：Flow和TypeScript React定义已经支持React Hooks
+  5. 测试使用Hooks的组件
+  6. lint 规则强制做了哪些：
+     1. Hooks本身在一个函数组件或另一个Hooks里
+     2. Hooks每次调用顺序不会变
+* 从Classes到Hooks
+  1. 生命周期映射
