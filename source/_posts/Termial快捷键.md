@@ -12,6 +12,4 @@ tags:
 2. ctrl + u/k：剪切光标前/后 所有单词
 3. ctrl + y：撤销上个操作
 4. ctrl + w：删除光标前一个单词
-5. command + ;： 显示使用过的命令
-6. command + shift + h：弹出历史记录窗口
-7. ctrl + r: 搜索历史记录
+5. ctrl + r: 搜索历史记录
