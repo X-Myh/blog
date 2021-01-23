@@ -79,7 +79,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:iWuzhi/iwuzhi.github.io.git
+  repo: git@github.com:iWuzhi/iWuzhi.github.io.git
 
 symbols_count_time:
   symbols: false
